@@ -1,0 +1,18 @@
+.btn {
+  display: inline-block;
+  position: fixed;
+  background: ghostwhite;
+  background-image: linear-gradient(to bottom, #fefff7, #fffcf2);
+  padding: 15px 15px;
+  border-radius: 25px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn .play {
+  background-color: lightgrey;
+  padding: 6px 6px;
+  border-radius: 6px;
+}

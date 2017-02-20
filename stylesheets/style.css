@@ -1,5 +1,7 @@
 @import 'reset.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic');
 
-@import 'main.css';
-@import 'loading.css';
+@import 'basic.css';
+
+@import 'music.css';
+@import 'content.css';
