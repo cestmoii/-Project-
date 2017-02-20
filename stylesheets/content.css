@@ -4,15 +4,38 @@
   background: ghostwhite;
   background-image: linear-gradient(to bottom, #fefff7, #fffcf2);
   padding: 15px 15px;
-  border-radius: 25px;
-}
-
-.btn:hover {
-  cursor: pointer;
+  border-radius: 35px;
 }
 
 .btn .play {
-  background-color: lightgrey;
-  padding: 6px 6px;
-  border-radius: 6px;
+  background-color: #B5B4B4;
+  padding: 22px 22px;
+  border-radius: 34px;
+}
+
+.btn .play:hover {
+  cursor: pointer;
+}
+
+.btn .play:active {
+  border-bottom: 1px solid #fff;
+  margin: 1px;
+  background-color: #B7B3B3;
+  box-shadow: 2px rgba(0,0,0,0.5)
+}
+
+.from {
+  position: fixed;
+  color: white;
+  font-size: 27px;
+  padding-bottom: 88vh;
+  padding-right: 160vh;
+}
+
+.to {
+  position: fixed;
+  color: white;
+  font-size: 27px;
+  padding-top: 88vh;
+  padding-left: 160vh;
 }
