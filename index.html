@@ -2,31 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Musical Post Card</title>
+    <title>Music Postcard</title>
     <link rel="stylesheet" href="stylesheets/style.css">
+
+    <script src="javascripts/audio.js"></script>
   </head>
   <body>
 
-    <audio controls preload="auto">
-      <source src="audio/3bOxSt3Oujdr.128.mp3" type="audio/mp3">
-    </audio>
+    <section class="wrapper">
+      <section class="from">
+        from: me
+      </section>
 
-    <audio controls autoplay="">
-      <source src="audio/movement - 5_57.mp3" type="audio/mp3">
-    </audio>
-
-    <section class="from">
-      from: me
+      <section class="to">
+        to: you
+      </section>
     </section>
 
-    <section class="to">
-      to: you
+    <section class="btn"  onClick="togglePlay()">
+        <div class="play">
+        </div>
     </section>
-
-    <section class="btn">
-      <div class="play">
-      </div>
-    </section>
-
   </body>
 </html>
