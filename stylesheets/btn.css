@@ -92,7 +92,7 @@
   top: -2px;
 }
 
-.cassette .holebig .one {
+div.five {
   position: absolute;
   background-color: antiquewhite;
   width: 2px;
@@ -101,29 +101,29 @@
   top: 27px;
 }
 
-.holebig .two {
-  position: relative;
+div.six {
+  position: absolute;
   background-color: antiquewhite;
   width: 2px;
   height: 8px;
   left: 46px;
-  top: -28px;
+  top: 65px;
 }
 
-.holebig .three {
-  position: relative;
+div.seven {
+  position: absolute;
   background-color: antiquewhite;
   width: 8px;
   height: 2px;
   left: 61px;
-  top: -54px;
+  top: 47px;
 }
 
-.holebig .four {
-  position: relative;
+div.eight {
+  position: absolute;
   background-color: antiquewhite;
   width: 8px;
   height: 2px;
   left: 25px;
-  top: -55px;
+  top: 47px;
 }
