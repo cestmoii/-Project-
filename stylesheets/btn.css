@@ -1,25 +1,129 @@
-.btn {
+.cassette {
   display: block;
   position: fixed;
   background: ghostwhite;
   background-image: linear-gradient(to bottom, #fefff7, #fffcf2);
-  padding: 15px 15px;
-  border-radius: 35px;
+  width: 163px;
+  height: 96px;
+  border-radius: 13px;
   z-index: 1;
 }
 
-.btn .play {
-  background-color: #B5B4B4;
-  padding: 22px 22px;
-  border-radius: 34px;
-}
-
-.btn .play:hover {
+.cassette:hover {
   cursor: pointer;
 }
 
-.btn .play:active {
+.cassette:active {
   border-bottom: 1px solid #fff;
   margin: 1px;
   background-color: #B7B3B3;
+}
+
+.cassette .hole {
+  position: relative;
+  background-color: #332F2F;
+  width: 35px;
+  height: 35px;
+  border-radius: 24px;
+  left: 100px;
+  top: 30px;
+}
+
+.cassette .holebig {
+  position: relative;
+  background-color: #332F2F;
+  width: 50px;
+  height: 50px;
+  border-radius: 34px;
+  left: 22px;
+  top: -10px;
+}
+
+.cassette .stripe {
+  position: relative;
+  width: 163px;
+  height: 4px;
+  background-color: #254C18;
+  top: -3px;
+}
+
+.cassette .line {
+  position: relative;
+  width: 161px;
+  height: 11px;
+  background-color: #254C18;
+  top: -80px;
+  left: 1px;
+  border-radius: 5px;
+}
+
+.hole .one {
+  position: relative;
+  background-color: antiquewhite;
+  width: 2px;
+  height: 8px;
+  left: 17px;
+  top: 2px;
+}
+
+.hole .two {
+  position: relative;
+  background-color: antiquewhite;
+  width: 2px;
+  height: 8px;
+  left: 17px;
+  top: 17px;
+}
+
+.hole .three {
+  position: relative;
+  background-color: antiquewhite;
+  width: 8px;
+  height: 2px;
+  left: 2px;
+}
+
+.hole .four {
+  position: relative;
+  background-color: antiquewhite;
+  width: 8px;
+  height: 2px;
+  left: 25px;
+  top: -2px;
+}
+
+.cassette .holebig .one {
+  position: absolute;
+  background-color: antiquewhite;
+  width: 2px;
+  height: 8px;
+  left: 46px;
+  top: 27px;
+}
+
+.holebig .two {
+  position: relative;
+  background-color: antiquewhite;
+  width: 2px;
+  height: 8px;
+  left: 46px;
+  top: -28px;
+}
+
+.holebig .three {
+  position: relative;
+  background-color: antiquewhite;
+  width: 8px;
+  height: 2px;
+  left: 61px;
+  top: -54px;
+}
+
+.holebig .four {
+  position: relative;
+  background-color: antiquewhite;
+  width: 8px;
+  height: 2px;
+  left: 25px;
+  top: -55px;
 }
