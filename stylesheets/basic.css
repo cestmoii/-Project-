@@ -12,16 +12,5 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  -webkit-animation-name: example;
-  -webkit-animation-duration: 20s;
-}
-
-@-webkit-keyframes example {
-  from {background-color: black;}
-  to {background-color: lightgrey;}
-}
-
-@keyframes example {
-    from {background-color: ghostwhite;}
-    to {background-color: black;}
+  animation: first 10s 0s 1, background 2s 10s infinite;
 }

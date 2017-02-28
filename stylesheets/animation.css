@@ -1,4 +1,22 @@
+@keyframes first {
+  from {background-color: ghostwhite;}
+  to {background-color: black;}
+}
+
 @keyframes spin {
   50% {transform: rotate(270deg);}
   100% {transform: rotate(0deg);}
+}
+
+@keyframes background {
+  from {background-color: lightblue;}
+  to {background-color: pink;}
+}
+
+@keyframes dance {
+  0% {transform: translate(0,0);}
+  25% {transform: translate(-5em,0) rotate(-13deg);}
+  50% {transform: translate(5em,-3em) rotate(13deg);}
+  75% {transform: translate(5em,0) rotate(-13deg);}
+  100% {transform: translate(5em,3) rotate(13deg);}
 }
