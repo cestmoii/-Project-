@@ -57,20 +57,6 @@
   border-radius: 3px;
 }
 
-.hole .stripes {
-  -moz-transform: rotate(15deg);
-  -ms-transform: rotate(15deg);
-  -webkit-transform: rotate(15deg);
-  -o-transform: rotate(15deg);
-  transform: rotate(15deg);
-  animation-name: spin;
-  -webkit-animation-name: spin;
-  animation-duration: 6s;
-  animation-timing-function: linear;
-  animation-play-state: running;
-  animation-iteration-count: infinite;
-}
-
 .holebig .stripess {
   -moz-transform: rotate(15deg);
   -ms-transform: rotate(15deg);
@@ -79,73 +65,42 @@
   transform: rotate(15deg);
 }
 
-div.one {
-  position: relative;
-  background-color: antiquewhite;
-  width: 2px;
-  height: 8px;
-  left: 17px;
-  top: 2px;
-}
-
-div.two {
-  position: relative;
-  background-color: antiquewhite;
-  width: 2px;
-  height: 8px;
-  left: 17px;
-  top: 17px;
-}
-
-div.three {
-  position: relative;
-  background-color: antiquewhite;
-  width: 8px;
-  height: 2px;
-  left: 27px;
-}
-
-div.four {
-  position: relative;
-  background-color: antiquewhite;
-  width: 8px;
-  height: 2px;
-  left: 4px;
-  top: -2px;
-}
-
-div.five {
+.element1 {
   position: absolute;
-  background-color: antiquewhite;
-  width: 2px;
-  height: 8px;
-  left: 29px;
-  top: 2px;
+  background-color: #332F2F;
+  width: 23px;
+  height: 23px;
+  border-radius: 13px;
+  border-bottom: 4px solid antiquewhite;
+  border-top: 4px solid antiquewhite;
+  border-right: 4px solid antiquewhite;
+  border-left: 4px solid #332F2F;
+  left: 6px;
+  top: 6px;
+  animation-name: spin;
+  -webkit-animation-name: spin;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
 }
 
-div.six {
+.element2 {
   position: absolute;
-  background-color: antiquewhite;
-  width: 2px;
-  height: 8px;
-  left: 29px;
-  top: 39px;
-}
-
-div.seven {
-  position: absolute;
-  background-color: antiquewhite;
-  width: 8px;
-  height: 2px;
-  left: 45px;
-  top: 23px;
-}
-
-div.eight {
-  position: absolute;
-  background-color: antiquewhite;
-  width: 8px;
-  height: 2px;
-  left: 9px;
-  top: 23px;
+  background-color: #332F2F;
+  width: 36px;
+  height: 36px;
+  border-radius: 30px;
+  border-bottom: 5px solid antiquewhite;
+  border-top: 5px solid antiquewhite;
+  border-right: 5px solid #332F2F;
+  border-left: 5px solid antiquewhite;
+  left: 7px;
+  top: 7px;
+  animation-name: spin;
+  -webkit-animation-name: spin;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
 }
