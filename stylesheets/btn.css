@@ -50,14 +50,36 @@
 .cassette .line {
   position: relative;
   width: 161px;
-  height: 11px;
+  height: 13px;
   background-color: #254C18;
   top: -80px;
   left: 1px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
-.hole .one {
+.hole .stripes {
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  transform: rotate(15deg);
+  animation-name: spin;
+  -webkit-animation-name: spin;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+}
+
+.holebig .stripess {
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  transform: rotate(15deg);
+}
+
+div.one {
   position: relative;
   background-color: antiquewhite;
   width: 2px;
@@ -66,7 +88,7 @@
   top: 2px;
 }
 
-.hole .two {
+div.two {
   position: relative;
   background-color: antiquewhite;
   width: 2px;
@@ -75,20 +97,20 @@
   top: 17px;
 }
 
-.hole .three {
+div.three {
   position: relative;
   background-color: antiquewhite;
   width: 8px;
   height: 2px;
-  left: 2px;
+  left: 27px;
 }
 
-.hole .four {
+div.four {
   position: relative;
   background-color: antiquewhite;
   width: 8px;
   height: 2px;
-  left: 25px;
+  left: 4px;
   top: -2px;
 }
 
@@ -97,8 +119,8 @@ div.five {
   background-color: antiquewhite;
   width: 2px;
   height: 8px;
-  left: 46px;
-  top: 27px;
+  left: 29px;
+  top: 2px;
 }
 
 div.six {
@@ -106,8 +128,8 @@ div.six {
   background-color: antiquewhite;
   width: 2px;
   height: 8px;
-  left: 46px;
-  top: 65px;
+  left: 29px;
+  top: 39px;
 }
 
 div.seven {
@@ -115,8 +137,8 @@ div.seven {
   background-color: antiquewhite;
   width: 8px;
   height: 2px;
-  left: 61px;
-  top: 47px;
+  left: 45px;
+  top: 23px;
 }
 
 div.eight {
@@ -124,6 +146,6 @@ div.eight {
   background-color: antiquewhite;
   width: 8px;
   height: 2px;
-  left: 25px;
-  top: 47px;
+  left: 9px;
+  top: 23px;
 }

@@ -1,0 +1,27 @@
+@keyframes change-background {
+  0% {
+    background: #16a085;
+  }
+  25% {
+    background: #1abc9c;
+  }
+  50% {
+    background: #9b59b6;
+  }
+  75% {
+    background: #8e44ad;
+  }
+  100% {
+    background: #16a085;
+  }
+}
+
+body {
+  background-color: #ccc;
+  -moz-animation: change-background 10s infinite;
+  -webkit-animation: change-background 10s infinite;
+  animation: change-background 10s infinite;
+  -moz-animation-delay: 10s;
+  -webkit-animation-delay: 10s;
+  animation-delay: 10s;
+}
