@@ -12,6 +12,7 @@
 
 .cassette:hover {
   cursor: pointer;
+  animation-play-state: paused;
 }
 
 .cassette:active {
