@@ -8,7 +8,6 @@
   border-radius: 13px;
   z-index: 1;
   animation: dance 4s infinite alternate;
-  ani
 }
 
 .cassette:hover {
@@ -59,20 +58,12 @@
   border-radius: 3px;
 }
 
-.holebig .stripess {
-  -moz-transform: rotate(15deg);
-  -ms-transform: rotate(15deg);
-  -webkit-transform: rotate(15deg);
-  -o-transform: rotate(15deg);
-  transform: rotate(15deg);
-}
-
 .element1 {
   position: absolute;
   background-color: #332F2F;
   width: 23px;
   height: 23px;
-  border-radius: 13px;
+  border-radius: 14px;
   border-bottom: 4px solid antiquewhite;
   border-top: 4px solid antiquewhite;
   border-right: 4px solid antiquewhite;
