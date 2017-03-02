@@ -13,5 +13,9 @@ body {
   align-items: center;
   overflow: hidden;
   animation: first 10s 1;
-  -webkit-animation: first 10s 0s 1;
+  -webkit-animation: first 5s 1;
+}
+.animate1 {
+  animation: background 2s infinite;
+  -webkit-animation: background 2s infinite;
 }

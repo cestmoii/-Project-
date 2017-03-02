@@ -8,6 +8,10 @@
   border-radius: 13px;
   z-index: 1;
 }
+.animate {
+  animation: dance 3s infinite alternate;
+  -webkit-animation: dance 3s infinite alternate;
+}
 
 .cassette:hover {
   cursor: pointer;
@@ -70,8 +74,8 @@
   border-left: 4px solid #332F2F;
   left: 6px;
   top: 6px;
-  animation: spin 6s linear running infinite;
-  -webkit-animation: spin 6s linear running infinite;
+  animation: spin 6s linear infinite;
+  -webkit-animation: spin 6s linear infinite;
 }
 
 .element2 {
@@ -86,6 +90,6 @@
   border-left: 5px solid antiquewhite;
   left: 7px;
   top: 7px;
-  animation: spin 6s linear running infinite;
-  -webkit-animation: spin 6s linear running infinite;
+  animation: spin 6s linear infinite;
+  -webkit-animation: spin 6s linear infinite;
 }

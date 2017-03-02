@@ -3,14 +3,17 @@
   to {background-color: black;}
 }
 
-@keyframes spin {
-  50% {transform: rotate(270deg);}
-  100% {transform: rotate(0deg);}
+@-webkit-keyframes first {
+  from {background-color: ghostwhite;}
+  to {background-color: black;}
 }
 
-.animate1 {
-  animation: background 2s infinite;
-  -webkit-animation: background 2s infinite;
+@keyframes spin {
+  100% {transform: rotate(360deg);}
+}
+
+@-webkit-keyframes spin {
+  100% {transform: rotate(360deg);}
 }
 
 @keyframes background {
@@ -18,12 +21,20 @@
   to {background-color: pink;}
 }
 
-.animate {
-  animation: dance 4s infinite alternate;
-  -webkit-animation: dance 4s infinite alternate;
+@-webkit-keyframes background {
+  from {background-color: lightblue;}
+  to {background-color: pink;}
 }
 
 @keyframes dance {
+  0% {transform: translate(0,0);}
+  25% {transform: translate(-5em,0) rotate(-13deg);}
+  50% {transform: translate(5em,-3em) rotate(13deg);}
+  75% {transform: translate(5em,0) rotate(-13deg);}
+  100% {transform: translate(5em,3) rotate(13deg);}
+}
+
+@-webkit-keyframes dance {
   0% {transform: translate(0,0);}
   25% {transform: translate(-5em,0) rotate(-13deg);}
   50% {transform: translate(5em,-3em) rotate(13deg);}
