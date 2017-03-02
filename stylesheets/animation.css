@@ -8,9 +8,19 @@
   100% {transform: rotate(0deg);}
 }
 
+.animate1 {
+  animation: background 2s infinite;
+  -webkit-animation: background 2s infinite;
+}
+
 @keyframes background {
   from {background-color: lightblue;}
   to {background-color: pink;}
+}
+
+.animate {
+  animation: dance 4s infinite alternate;
+  -webkit-animation: dance 4s infinite alternate;
 }
 
 @keyframes dance {

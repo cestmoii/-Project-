@@ -12,6 +12,6 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  animation: first 10s 0s 1, background 2s 10s infinite;
-  -webkit-animation: first 10s 0s 1, background 2s 10s infinite;
+  animation: first 10s 1;
+  -webkit-animation: first 10s 0s 1;
 }
