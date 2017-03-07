@@ -1,4 +1,9 @@
-.figs {
+.figs1,
+.figs2,
+.figs3,
+.figs4,
+.figs5,
+.figs6 {
   display: none;
   width: 20px;
   height: 20px;
@@ -10,6 +15,42 @@
   -webkit-animation: spin 2s infinite linear reverse;
 }
 
-.figs:hover {
+.animate3:hover {
   display: none;
+}
+
+.figs1 {
+  position: relative;
+  top: -30vh;
+  left: -30vw;
+}
+
+.figs2 {
+  position: relative;
+  top: 20vh;
+  left: -40px;
+}
+
+.figs3 {
+  position: relative;
+  top: -20vh;
+  left: -87vw;
+}
+
+.figs4 {
+  position: relative;
+  left: -36vw;
+  top: 39vh;
+}
+
+.figs5 {
+  position: relative;
+  left: -75vw;
+  top: -1vh;
+}
+
+.figs6 {
+  position: relative;
+  top: -45vh;
+  left: -6vw;
 }

@@ -20,6 +20,13 @@ $(function(){
 
 $(function(){
 	$('.cassette').click(function(){
-		$('.figs').addClass('animate3');
+		$('.figs1,.figs2,.figs3,.figs4,.figs5,.figs6').addClass('animate3');
 	});
+});
+
+$(document).ready(function() {
+    $('.figs1, .figs2, .figs3, .figs4, .figs5, .figs6').each(function () {
+        var hue = 'rgb(' + (Math.floor((256-199)*Math.random()) + 200) + ',' + (Math.floor((256-199)*Math.random()) + 200) + ',' + (Math.floor((256-199)*Math.random()) + 200) + ')';
+        $(this).css("background-color", hue);
+    });
 });
