@@ -1,21 +1,33 @@
-.wrapper {
-  width: 100%;
+p {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  color: white;
+  font-size: 37px;
+  top: 6vh;
 }
 
-.from {
-  position: fixed;
+.create {
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 27px;
-  line-height: 0px;
-  margin-left: 50px;
-  margin-top: -43vh;
+  text-decoration: underline;
+  position: absolute;
+  top: 0;
+  right: 2px;
 }
 
-.to {
-  position: fixed;
+.about {
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 27px;
-  line-height: 0px;
-  margin-top: 43vh;
-  margin-left: calc(100% - 125px);
+  text-decoration: underline;
+  position: absolute;
+  top: 0;
+  left: 2px;
+}
+
+footer {
+  position: absolute;
+  bottom: 6px;
+  right: 2px;
 }

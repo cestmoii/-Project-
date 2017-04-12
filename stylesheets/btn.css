@@ -1,6 +1,46 @@
+.wrap {
+  position: absolute;
+}
+
+.tap {
+  position: absolute;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.taptop {
+  position: absolute;
+  top: -23px;
+  left: 52px;
+  width: 100px;
+}
+
+.tapright {
+  position: absolute;
+  top: 62px;
+  left: 128px;
+  width: 100px;
+  transform: rotate(90deg);
+}
+
+.tapbottom {
+  transform: rotate(180deg);
+  position: absolute;
+  top: 102px;
+  width: 100px;
+  left: 13px;
+}
+
+.tapleft {
+  transform: rotate(270deg);
+  position: absolute;
+  left: -64px;
+  top: 20px;
+  width: 100px;
+}
+
 .cassette {
   display: block;
-  position: fixed;
   background: ghostwhite;
   background-image: linear-gradient(to bottom, #fefff7, #fffcf2);
   width: 163px;

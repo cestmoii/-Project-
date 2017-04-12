@@ -30,3 +30,9 @@ $(document).ready(function() {
         $(this).css("background-color", hue);
     });
 });
+
+$(function(){
+	$('.cassette').click(function(){
+		$('div').remove(".tap");
+	});
+});
