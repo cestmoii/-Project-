@@ -11,14 +11,6 @@ $(function(){
 });
 
 $(function(){
-	e1 = $('body');
-	e1.addClass('animate2');
-	$('.cassette').click(function(){
-		e1.removeClass('animate2');
-	});
-});
-
-$(function(){
 	$('.cassette').click(function(){
 		$('.figs1,.figs2,.figs3,.figs4,.figs5,.figs6').addClass('animate3');
 	});
@@ -34,5 +26,11 @@ $(document).ready(function() {
 $(function(){
 	$('.cassette').click(function(){
 		$('div').remove(".tap");
+	});
+});
+
+$(function(){
+	$('.cassette').click(function() {
+	  $('.tap').hide();
 	});
 });

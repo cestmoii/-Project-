@@ -14,11 +14,6 @@ body {
   overflow: hidden;
 }
 
-.animate2 {
-  animation: first 10s 1;
-  -webkit-animation: first 5s 1;
-}
-
 .animate1 {
   animation: background 2s infinite;
   -webkit-animation: background 2s infinite;
