@@ -4,9 +4,10 @@
 
 .tap {
   position: relative;
+  top: -2px;
   color: black;
   font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   z-index: 2;
   text-align: center;
   opacity: 1;
@@ -16,8 +17,8 @@
   display: block;
   background: ghostwhite;
   background-image: linear-gradient(to bottom, #fefff7, #fffcf2);
-  width: 163px;
-  height: 96px;
+  width: 170px;
+  height: 100px;
   border-radius: 13px;
   z-index: 1;
 }
@@ -43,8 +44,8 @@
   width: 35px;
   height: 35px;
   border-radius: 24px;
-  left: 100px;
-  top: 40px;
+  left: 102px;
+  top: 41px;
 }
 
 .cassette .holebig {
@@ -53,21 +54,22 @@
   width: 50px;
   height: 50px;
   border-radius: 34px;
-  left: 22px;
-  top: 30px;
+  left: 26px;
+  top: 32px
 }
 
 .cassette .stripe {
   position: absolute;
-  width: 163px;
+  width: 170px;
   height: 3px;
+  border-radius: 100px;
   background-color: #254C18;
-  top: 83px;
+  top: 88px;
 }
 
 .cassette .line {
   position: absolute;
-  width: 161px;
+  width: 168.5px;
   height: 12px;
   background-color: #254C18;
   top: 14px;
