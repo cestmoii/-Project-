@@ -90,8 +90,7 @@ header {
 
 footer {
   position: absolute;
-  bottom: 3px;
-  right: 2px;
+  bottom: 20px;
 }
 
 .fback {
@@ -109,4 +108,10 @@ footer {
 
 .back:hover {
   background-color: lightgrey;
+}
+
+.createtext {
+  line-height: 80px;
+  position: relative;
+  font-size: 34px;
 }
